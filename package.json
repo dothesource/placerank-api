@@ -4,6 +4,7 @@
   "description": "community based map ranking api",
   "main": "handler.js",
   "dependencies": {
+    "expect": "^21.2.1",
     "serverless": "^1.23.0"
   },
   "devDependencies": {},
@@ -14,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/dannyhw/placerank-api.git"
   },
-  "keywords": ["map", "community", "ranking"],
+  "keywords": [
+    "map",
+    "community",
+    "ranking"
+  ],
   "author": "Daniel Williams",
   "license": "MIT",
   "bugs": {
